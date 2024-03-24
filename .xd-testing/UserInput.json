@@ -1,14 +1,4 @@
 {
-  "ontologies": [
-    {
-      "url": "https://raw.githubusercontent.com/MatteoMUni/Test-Public-Repo/main/.xd-testing/New Ontology/note.txt",
-      "name": "New Ontology"
-    },
-    {
-      "url": "mypath",
-      "name": "O1"
-    }
-  ],
   "fragments": [
     {
       "name": "Fragment 1",
@@ -66,6 +56,22 @@
           "id": "CQ003"
         }
       ]
+    }
+  ],
+  "ontologies": [
+    {
+      "url": "https://raw.githubusercontent.com/MatteoMUni/Test-Public-Repo/main/.xd-testing/New Ontology/note.txt",
+      "name": "New Ontology",
+      "ignored": false,
+      "parsed": true,
+      "userDefined": false
+    },
+    {
+      "url": "mypath",
+      "name": "O1",
+      "ignored": true,
+      "parsed": true,
+      "userDefined": false
     }
   ]
 }
